@@ -1,6 +1,7 @@
 # ip-address-tracker-app
 
 ## Overview
+![Screen Recording 2025-01-24 at 9 25 32 PM](https://github.com/user-attachments/assets/07770429-4d3c-40cf-88d9-d7efb7fbff11)
 
 The IP Address Tracker App is a web application that allows users to track the location of any IP address or domain name. The app provides location details such as the city, region, country, latitude, longitude, and Internet Service Provider (ISP). It integrates with an IP Geolocation API and uses an interactive map to display results visually.
 
