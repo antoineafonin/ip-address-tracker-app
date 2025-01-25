@@ -1,1 +1,1 @@
-export {validateIp} from "./validate-ip";
+export { validateIp } from "./validate-ip";

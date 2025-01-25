@@ -23,7 +23,6 @@ const map = L.map(mapArea, {
 const markerIcon = L.icon({
     iconUrl: icon,
     iconSize: [30, 40],
-    // iconAnchor: [15, 40],
 });
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -79,9 +78,5 @@ function setInfo(mapData) {
     const { lat, lng } = mapData.location;
     map.setView([lat, lng], 13);
 
-    if (marker) {
-        marker.setLatLng([lat, lng]);
-    } else {
-        marker = L.marker([lat, lng], { icon: markerIcon }).addTo(map);
-    }
+    marker.setLatLng([lat, lng]);
 }
